@@ -1,11 +1,20 @@
-# AIoT Spatiotemporal Prediction Model Local Reproduction Project
+# AIoT Spatiotemporal Prediction Model
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/Tests-74%20passed-brightgreen.svg)](#testing)
 
-A spatiotemporal prediction model based on Graph Attention Networks (GAT) and Transformer, specifically designed for parking occupancy forecasting. This project implements a complete pipeline from data processing to model training and inference, featuring high performance and production-ready characteristics.
+**An advanced spatiotemporal prediction deep learning framework that fuses Graph Attention Networks (GAT) and Transformer architectures, specifically designed for urban parking occupancy forecasting.**
+
+This project addresses a critical challenge in urban intelligent transportation systems—real-time accurate prediction of parking occupancy rates. By innovatively combining the spatial modeling capabilities of graph neural networks with the temporal learning advantages of Transformers, we have built a high-performance, scalable spatiotemporal prediction system. The system not only captures complex spatial dependencies between parking lots but also effectively models long-term temporal patterns, providing powerful predictive capabilities for smart cities and AIoT applications.
+
+### 🎯 Core Value
+
+- **Solving Real Problems**: Addresses urban parking challenges with precise occupancy prediction
+- **Technical Innovation**: Pioneer GAT-Transformer spatiotemporal fusion architecture
+- **Engineering Practice**: Complete solution from research prototype to production deployment
+- **Open Source Contribution**: High-quality open source implementation for spatiotemporal prediction field
 
 ## 🌟 Key Features
 

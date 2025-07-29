@@ -1,11 +1,20 @@
-# AIoT 时空预测模型本地复现项目
+# AIoT 时空预测模型
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red.svg)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/Tests-74%20passed-brightgreen.svg)](#testing)
 
-一个基于图注意力网络(GAT)和Transformer的时空预测模型，专门用于停车场占用率预测。该项目实现了完整的数据处理、模型训练和推理流程，具有高性能和生产就绪的特性。
+**一个先进的时空预测深度学习框架，融合图注意力网络(GAT)和Transformer架构，专为城市停车场占用率预测而设计。**
+
+本项目解决了城市智能交通系统中的关键挑战——实时准确预测停车场占用率。通过创新性地结合图神经网络的空间建模能力和Transformer的时序学习优势，我们构建了一个高性能、可扩展的时空预测系统。该系统不仅能够捕获停车场之间的复杂空间依赖关系，还能有效建模长期时间序列模式，为智慧城市和AIoT应用提供了强大的预测能力。
+
+### 🎯 核心价值
+
+- **解决实际问题**: 针对城市停车难题，提供精准的占用率预测
+- **技术创新**: 首创GAT-Transformer时空融合架构
+- **工程实践**: 从研究原型到生产部署的完整解决方案
+- **开源贡献**: 为时空预测领域提供高质量的开源实现
 
 ## 🌟 主要特性
 
