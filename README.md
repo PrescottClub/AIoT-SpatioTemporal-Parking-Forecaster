@@ -402,13 +402,13 @@ python -m pytest tests/ -v
 
 ## 📞 联系方式
 
-- **项目主页**: [GitHub Repository](https://github.com/your-username/Aiot-SpatioTemporal-Parking-Forecaster)
-- **问题反馈**: [Issues](https://github.com/your-username/Aiot-SpatioTemporal-Parking-Forecaster/issues)
-- **讨论交流**: [Discussions](https://github.com/your-username/Aiot-SpatioTemporal-Parking-Forecaster/discussions)
+- **项目主页**: [GitHub Repository](https://github.com/PrescottClub/Aiot-SpatioTemporal-Parking-Forecaster)
+- **问题反馈**: [Issues](https://github.com/PrescottClub/Aiot-SpatioTemporal-Parking-Forecaster/issues)
+- **讨论交流**: [Discussions](https://github.com/PrescottClub/Aiot-SpatioTemporal-Parking-Forecaster/discussions)
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/Aiot-SpatioTemporal-Parking-Forecaster&type=Date)](https://star-history.com/#your-username/Aiot-SpatioTemporal-Parking-Forecaster&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=PrescottClub/Aiot-SpatioTemporal-Parking-Forecaster&type=Date)](https://star-history.com/#PrescottClub/Aiot-SpatioTemporal-Parking-Forecaster&Date)
 
 ---
 
@@ -416,116 +416,3 @@ python -m pytest tests/ -v
 
 📖 **[English Version](README_EN.md)** | 🇨🇳 **中文版本**
 
-## 🧪 测试
-
-### 运行所有测试
-```bash
-python -m pytest tests/ -v
-```
-
-### 运行特定模块测试
-```bash
-python -m pytest tests/test_models.py -v
-python -m pytest tests/test_training.py -v
-python -m pytest tests/test_inference.py -v
-```
-
-### 测试覆盖率
-```bash
-python -m pytest tests/ --cov=src --cov-report=html
-```
-
-## 📈 性能指标
-
-| 指标 | 值 |
-|------|-----|
-| 推理延迟 | ~8ms (单样本) |
-| 推理吞吐量 | 1000+ 样本/秒 |
-| 模型参数 | 968K |
-| 内存使用 | <100MB |
-| 测试覆盖率 | 100% (74/74) |
-
-## 🔧 配置
-
-### 模型配置
-```python
-# config.py
-model:
-  node_feature_dim: 8
-  hidden_dim: 64
-  num_heads: 8
-  num_layers: 3
-  dropout: 0.1
-
-training:
-  batch_size: 32
-  learning_rate: 0.001
-  epochs: 100
-  early_stopping_patience: 10
-```
-
-### 数据配置
-```python
-data:
-  sequence_length: 12
-  prediction_length: 6
-  train_ratio: 0.7
-  val_ratio: 0.2
-  test_ratio: 0.1
-```
-
-## 🚀 部署
-
-### Docker部署
-```dockerfile
-FROM python:3.9-slim
-
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-
-COPY . .
-CMD ["python", "scripts/serve_model.py"]
-```
-
-### API服务
-```python
-from flask import Flask, request, jsonify
-from src.inference.predictor import InferencePredictor
-
-app = Flask(__name__)
-predictor = InferencePredictor('models/best_model.pth')
-
-@app.route('/predict', methods=['POST'])
-def predict():
-    data = request.json
-    predictions = predictor.predict(**data)
-    return jsonify(predictions.tolist())
-```
-
-## 🤝 贡献指南
-
-1. Fork 项目
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
-
-## 🙏 致谢
-
-- PyTorch团队提供的深度学习框架
-- PyTorch Geometric团队提供的图神经网络库
-- 所有开源贡献者的支持
-
-## 📞 联系方式
-
-- 项目链接: [GitHub Repository](https://github.com/your-username/Aiot-SpatioTemporal-Parking-Forecaster)
-- 问题反馈: [Issues](https://github.com/your-username/Aiot-SpatioTemporal-Parking-Forecaster/issues)
-
----
-
-⭐ 如果这个项目对你有帮助，请给它一个星标！

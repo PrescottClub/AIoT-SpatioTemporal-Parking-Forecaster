@@ -402,13 +402,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Homepage**: [GitHub Repository](https://github.com/your-username/Aiot-SpatioTemporal-Parking-Forecaster)
-- **Issue Reports**: [Issues](https://github.com/your-username/Aiot-SpatioTemporal-Parking-Forecaster/issues)
-- **Discussions**: [Discussions](https://github.com/your-username/Aiot-SpatioTemporal-Parking-Forecaster/discussions)
+- **Project Homepage**: [GitHub Repository](https://github.com/PrescottClub/Aiot-SpatioTemporal-Parking-Forecaster)
+- **Issue Reports**: [Issues](https://github.com/PrescottClub/Aiot-SpatioTemporal-Parking-Forecaster/issues)
+- **Discussions**: [Discussions](https://github.com/PrescottClub/Aiot-SpatioTemporal-Parking-Forecaster/discussions)
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/Aiot-SpatioTemporal-Parking-Forecaster&type=Date)](https://star-history.com/#your-username/Aiot-SpatioTemporal-Parking-Forecaster&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=PrescottClub/Aiot-SpatioTemporal-Parking-Forecaster&type=Date)](https://star-history.com/#PrescottClub/Aiot-SpatioTemporal-Parking-Forecaster&Date)
 
 ---
 
